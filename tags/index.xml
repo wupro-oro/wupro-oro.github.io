@@ -1,7 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - 标签 - BLOG</title>
+        <title>Tags - 标签 - BLOG主页</title>
         <link>https://wupro-oro.github.io/tags/</link>
-        <description>Tags - 标签 - BLOG</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://wupro-oro.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+        <description>Tags - 标签 - BLOG主页</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>joker201117@163.com (WuSheng&#39;ao)</managingEditor>
+            <webMaster>joker201117@163.com (WuSheng&#39;ao)</webMaster><atom:link href="https://wupro-oro.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

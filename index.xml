@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>BLOG</title>
+        <title>BLOG主页</title>
         <link>https://wupro-oro.github.io/</link>
-        <description>BLOG</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Feb 2022 13:22:02 &#43;0800</lastBuildDate>
+        <description>这是我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>joker201117@163.com (WuSheng&#39;ao)</managingEditor>
+            <webMaster>joker201117@163.com (WuSheng&#39;ao)</webMaster><lastBuildDate>Sat, 12 Feb 2022 13:22:02 &#43;0800</lastBuildDate>
             <atom:link href="https://wupro-oro.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Blog</title>
+    <title>Linux设备树</title>
     <link>https://wupro-oro.github.io/posts/blog/</link>
     <pubDate>Sat, 12 Feb 2022 13:22:02 &#43;0800</pubDate>
     <author>作者</author>
