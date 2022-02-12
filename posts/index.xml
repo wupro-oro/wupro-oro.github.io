@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>BLOG</title>
-        <link>https://wupro-oro.github.io/</link>
-        <description>BLOG</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Feb 2022 13:22:02 &#43;0800</lastBuildDate>
-            <atom:link href="https://wupro-oro.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>所有文章 - BLOG</title>
+        <link>https://wupro-oro.github.io/posts/</link>
+        <description>所有文章 | BLOG</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 12 Feb 2022 13:22:02 &#43;0800</lastBuildDate><atom:link href="https://wupro-oro.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Blog</title>
     <link>https://wupro-oro.github.io/posts/blog/</link>
     <pubDate>Sat, 12 Feb 2022 13:22:02 &#43;0800</pubDate>

@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://wupro-oro.github.io/post/blog/</loc><lastmod>2022-02-12T13:22:02&#43;08:00</lastmod></url><url>
             <loc>https://wupro-oro.github.io/</loc><lastmod>2022-02-12T13:22:02&#43;08:00</lastmod></url><url>
-            <loc>https://wupro-oro.github.io/post/</loc><lastmod>2022-02-12T13:22:02&#43;08:00</lastmod></url><url>
+            <loc>https://wupro-oro.github.io/posts/blog/</loc><lastmod>2022-02-12T13:22:02&#43;08:00</lastmod></url><url>
+            <loc>https://wupro-oro.github.io/posts/</loc><lastmod>2022-02-12T13:22:02&#43;08:00</lastmod></url><url>
             <loc>https://wupro-oro.github.io/categories/</loc></url><url>
             <loc>https://wupro-oro.github.io/tags/</loc></url></urlset>

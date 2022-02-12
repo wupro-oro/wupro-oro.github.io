@@ -1,46 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-CN">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Blog - My New Hugo Site</title><meta name="Description" content=""><meta property="og:title" content="Blog" />
-<meta property="og:description" content="Linux设备树 Linux3.x 以后引入了设备树，用于描述一个硬件平台的板级细节。
-设备树简介 设备树可以被 bootloader（uboot）传递到内核，内核从中获取设备树中的硬件信息。
-设备树的两个特点：
- 一：以 树状结构 描述硬件资源。 二：设备树可以像头文件使用，一个设备树文件引用另外一个设备树文件。  几个常用的缩写：
- DTS：是指 .dts 格式的文件，是一种 ASII 文本格式的设备树描述，也是我们要编写的设备树源码，一般一个 .dts 文件对应一个硬件平台，位于 Linux 源码的 /arch/arm/boot/dts 目录下。 DTC：是指编译设备树源码的工具，一般情况下，需要手动安装这个编译工具。 DTB：是设备树源码编译生成的文件。 .dts：设备树源文件。 .dtsi：设备树头文件。 .dtb：设备树可执行文件。  设备树框架 设备树是由 一个根节点 和 多个子节点 组成。
-设备树格式 DTS 文件布局 /dts-v1/; // 表示版本 [memory reservations] // 格式为: /memreserve/ &lt;address&gt; &lt;length&gt;; / { [property definitions] [child nodes] }; node 格式 node为设备树中的基本单元。格式为：
-[label:] node-name[@unit-address] { [properties definitions] [child nodes] };  label：是节点标签。可以省略，方便地引用 node。通常，节点标签通常为基点名称的缩写，一般用于追加内容时使用。 node-name：节点名称。长度为1-31个字符。可由 0-9 a-z A-Z , ." />
+        <title>Blog - BLOG</title><meta name="Description" content=""><meta property="og:title" content="Blog" />
+<meta property="og:description" content="Linux设备树 Linux3.x 以后引入了设备树，用于描述一个硬件平台的板级细节。 设备树简介 设备树可以被 bootloader（uboot）传递到内核，内核" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://wupro-oro.github.io/post/blog/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://wupro-oro.github.io/posts/blog/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-12T13:22:02+08:00" />
 <meta property="article:modified_time" content="2022-02-12T13:22:02+08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Blog"/>
-<meta name="twitter:description" content="Linux设备树 Linux3.x 以后引入了设备树，用于描述一个硬件平台的板级细节。
-设备树简介 设备树可以被 bootloader（uboot）传递到内核，内核从中获取设备树中的硬件信息。
-设备树的两个特点：
- 一：以 树状结构 描述硬件资源。 二：设备树可以像头文件使用，一个设备树文件引用另外一个设备树文件。  几个常用的缩写：
- DTS：是指 .dts 格式的文件，是一种 ASII 文本格式的设备树描述，也是我们要编写的设备树源码，一般一个 .dts 文件对应一个硬件平台，位于 Linux 源码的 /arch/arm/boot/dts 目录下。 DTC：是指编译设备树源码的工具，一般情况下，需要手动安装这个编译工具。 DTB：是设备树源码编译生成的文件。 .dts：设备树源文件。 .dtsi：设备树头文件。 .dtb：设备树可执行文件。  设备树框架 设备树是由 一个根节点 和 多个子节点 组成。
-设备树格式 DTS 文件布局 /dts-v1/; // 表示版本 [memory reservations] // 格式为: /memreserve/ &lt;address&gt; &lt;length&gt;; / { [property definitions] [child nodes] }; node 格式 node为设备树中的基本单元。格式为：
-[label:] node-name[@unit-address] { [properties definitions] [child nodes] };  label：是节点标签。可以省略，方便地引用 node。通常，节点标签通常为基点名称的缩写，一般用于追加内容时使用。 node-name：节点名称。长度为1-31个字符。可由 0-9 a-z A-Z , ."/>
-<meta name="application-name" content="My New Hugo Site">
-<meta name="apple-mobile-web-app-title" content="My New Hugo Site"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="twitter:description" content="Linux设备树 Linux3.x 以后引入了设备树，用于描述一个硬件平台的板级细节。 设备树简介 设备树可以被 bootloader（uboot）传递到内核，内核"/>
+<meta name="application-name" content="BLOG">
+<meta name="apple-mobile-web-app-title" content="BLOG"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://wupro-oro.github.io/post/blog/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://wupro-oro.github.io/posts/blog/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "Blog",
-        "inLanguage": "en-us",
+        "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/wupro-oro.github.io\/post\/blog\/"
-        },"genre": "post","wordcount":  1150 ,
-        "url": "https:\/\/wupro-oro.github.io\/post\/blog\/","datePublished": "2022-02-12T13:22:02+08:00","dateModified": "2022-02-12T13:22:02+08:00","publisher": {
+            "@id": "https:\/\/wupro-oro.github.io\/posts\/blog\/"
+        },"genre": "posts","wordcount":  6377 ,
+        "url": "https:\/\/wupro-oro.github.io\/posts\/blog\/","datePublished": "2022-02-12T13:22:02+08:00","dateModified": "2022-02-12T13:22:02+08:00","publisher": {
             "@type": "Organization",
             "name": "作者"},"author": {
                 "@type": "Person",
@@ -53,10 +41,10 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="My New Hugo Site">My New Hugo Site</a>
+            <a href="/" title="BLOG">BLOG</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/post/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -66,13 +54,13 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="My New Hugo Site">My New Hugo Site</a>
+                <a href="/" title="BLOG">BLOG</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/post/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -84,7 +72,33 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">Blog</h1><div class="content" id="content"><h1 id="linux设备树">Linux设备树</h1>
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Blog</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>作者</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-02-12">2022-02-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 6377 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 13 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#设备树简介">设备树简介</a></li>
+        <li><a href="#设备树框架">设备树框架</a></li>
+        <li><a href="#编译更换设备树">编译、更换设备树</a></li>
+        <li><a href="#内核处理设备树">内核处理设备树</a></li>
+        <li><a href="#获取节点函数">获取节点函数</a></li>
+        <li><a href="#提取节点中的属性值">提取节点中的属性值</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="linux设备树">Linux设备树</h1>
 <p>Linux3.x 以后引入了设备树，用于描述一个硬件平台的板级细节。</p>
 <h3 id="设备树简介">设备树简介</h3>
 <p>设备树可以被 <strong>bootloader</strong>（uboot）传递到内核，内核从中获取设备树中的硬件信息。</p>
@@ -734,7 +748,32 @@
 </ul>
 </li>
 </ul>
-</div></div></div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-02-12</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+</article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.91.2">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
                 </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
